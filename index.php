@@ -17,4 +17,10 @@
 
     $sum = $naimat === $fahad ;
     echo $sum ;
+
+    $x = 8 ;
+
+    $y = $x % 2 == 0;
+
+    echo $y;
 ?>
