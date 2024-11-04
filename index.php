@@ -32,4 +32,31 @@
     $c ? 30 : 40 ;
 
     echo $c ;
+
+    if ($c == 30) {
+        echo "Yes This is Code $c" ;
+    } else {
+       echo "try Again $c" ;
+    }
+
+    $age = 18 ;
+
+    if ($age >= 18) {
+        echo "Yes You can Vote $age" ;
+    } else {
+        echo "No You can't Vote $age" ;
+    }
+
+    $hasID = false;
+
+    if ($age >= 18 || $hasID) {
+        echo "Yes You Can Enter The Club Because Your Age is $age";
+    } else {
+        echo "No You Can't Enter The Club Because You Are Under 18";
+    }
+    
+    
+    
+
+
 ?>
