@@ -76,4 +76,16 @@
         $table = $number * $i;
         echo "$number x $i = $table <br>";
     }
+
+    $number = 10;
+    for ($i = 1; $i <= 10; $i++) { 
+        $table = $number * $i;
+        echo "$number x $i = $table <br>";
+    }
+
+    $number = 20;
+    for ($i = 1; $i <= 10; $i++) { 
+        $table = $number * $i;
+        echo "$number x $i = $table <br>";
+    }
 ?>
