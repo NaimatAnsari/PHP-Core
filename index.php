@@ -93,4 +93,9 @@ $number = 80;
         $table = $number * $i;
         echo "$number x $i = $table <br>";
 }
+$number = 100;
+    for ($i = 1; $i <= 10; $i++) { 
+        $table = $number * $i;
+        echo "$number x $i = $table <br>";
+    }
 ?>
