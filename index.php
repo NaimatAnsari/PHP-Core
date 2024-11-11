@@ -154,4 +154,31 @@ $day = 1;
             echo "Invalid Day<br>";
             break;
     }
+$day = 2;
+    switch ($day) {
+        case 1:
+            echo "Monday<br>";
+            break;
+        case 2:
+            echo "Tuesday<br>";
+            break;
+        case 3:
+            echo "Wednesday<br>";
+            break;
+        case 4:
+            echo "Thursday<br>";
+            break;
+        case 5:
+            echo "Friday<br>";
+            break;
+        case 6:
+            echo "Saturday<br>";
+            break;
+        case 7:
+            echo "Sunday<br>";
+            break;
+        default:
+            echo "Invalid Day<br>";
+            break;
+    }
 ?>
