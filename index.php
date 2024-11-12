@@ -181,4 +181,11 @@ $day = 2;
             echo "Invalid Day<br>";
             break;
     }
+
+$h = 40
+if ($h == 40) {
+        echo "Yes This is Code $c<br>";
+    } else {
+        echo "Try Again $c<br>";
+}
 ?>
