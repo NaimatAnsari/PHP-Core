@@ -98,4 +98,23 @@
     $ten = 100;
 
     $result = (10 * 10 == $ten) ?  "YES Ten is win" : "NOT Win " ;
+
+
+    $ten = 10;
+
+    $greet = fn($num) => $num * $ten;
+    
+    echo $greet(90);
+
+    $number = [1,2,3,4,5,6,7,8,9,10];
+
+    echo $number[0];
+
+    $number_map(($n)=>{
+        echo $n;
+    })
+
+
+
+
 ?>
