@@ -215,6 +215,6 @@ $day = 6;
     echo "Hello World";
  }
 
- 
+echo first() 
 
 ?>
