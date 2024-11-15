@@ -88,4 +88,14 @@
         $table = $number * $i;
         echo "$number x $i = $table <br>";
     }
+
+    function add($a, $b){
+        return $a + $b;
+    }
+
+    echo add(50,50);
+
+    $ten = 100;
+
+    $result = (10 * 10 == $ten) ?  "YES Ten is win" : "NOT Win " ;
 ?>
