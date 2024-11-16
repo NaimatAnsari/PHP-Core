@@ -137,5 +137,22 @@ $name = "Fourtuner Legender";
 $car = "Mujhe $name pasand hai";
 echo $car;
 
+class Person {
+    public $name ;
+    public $age ;
+    public $desigination;
+
+
+    public function introduce(){
+        echo "Hi, My name is" . $this->name . "and I am" . $this->age . "year Old" . "I am a" . $this->desigination ;
+    }
+}
+
+ $person1 = new Person();
+ $person1->name = "Waqas Sheikh";
+ $person1->age = 19;
+ $person1->desigination = "Business Men";
+ $person1->introduce();
+
 
 ?>
