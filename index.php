@@ -154,6 +154,11 @@ class Person {
  $person1->desigination = "Business Men";
  $person1->introduce();
 
+ $person2 = new Person();
+ $person2->name = "Naimat Ansari";
+ $person2->age = 17;
+ $person2->desigination = "Software Developer";
+ $person2->introduce();
 
  
 
