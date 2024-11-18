@@ -160,6 +160,17 @@ class Person {
  $person2->desigination = "Software Developer";
  $person2->introduce();
 
+ $person3 = new Person();
+ $person3->name = "Muzamil Khan";
+ $person3->age = 17;
+ $person3->desigination = "Trader";
+ $person3->introduce();
  
+ $person4 = new Person();
+ $person4->name = "Umer Anwer";
+ $person4->age = 17;
+ $person4->desigination = "Civil Engineer";
+ $person4->introduce();
+
 
 ?>
