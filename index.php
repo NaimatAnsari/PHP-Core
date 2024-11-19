@@ -172,5 +172,10 @@ class Person {
  $person4->desigination = "Civil Engineer";
  $person4->introduce();
 
+ $person5 = new Person();
+ $person5->name = "Umer Anwer";
+ $person5->age = 17;
+ $person5->desigination = "Civil Engineer";
+ $person5->introduce();
 
 ?>
