@@ -173,9 +173,9 @@ class Person {
  $person4->introduce();
 
  $person5 = new Person();
- $person5->name = "Umer Anwer";
- $person5->age = 17;
- $person5->desigination = "Civil Engineer";
+ $person5->name = "Sarim Akbar";
+ $person5->age = 21;
+ $person5->desigination = "Chemist";
  $person5->introduce();
 
 ?>
