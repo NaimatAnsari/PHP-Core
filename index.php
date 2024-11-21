@@ -211,6 +211,37 @@ $colors = ["Red","Blue","Green","Black","White"];
 
 echo "$name <br> $age <br> $height <br> $student <br> " . implode(",",$colors);
 
+$x = 10;
+$y = 20;
+
+echo $x < $y;
+
+echo $x === $y;
+
+echo $x !== $y;
+
+
+$x = 10;
+$y = 20;
+
+echo $x && $y;
+
+echo $x + $y || 30;
+
+echo (!$x + $y) === 30; 
+
+$firstName = "Naimat";
+$lastName = "Ali";
+
+echo $firstName . " " . $lastName;
+
+echo strlen($firstName);
+echo strtoupper($firstName);
+echo strtolower($lastName);
+echo substr(0, 2, $firstName);
+echo str_replace("Naimat" , "Ahmer" , $firstName);
+
+
 
 
 
