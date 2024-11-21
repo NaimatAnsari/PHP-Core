@@ -178,4 +178,42 @@ class Person {
  $person5->desigination = "Chemist";
  $person5->introduce();
 
+ define("USERNAME","Naimat ALi");
+ define("PASSWORD",12345);
+
+ echo USERNAME . PASSWORD;
+
+ $name = "Naimat Ali";
+ $age = 17;
+
+ echo "$name <br> $age";
+
+$number1 = 10;
+$number2 = 5;
+
+$addition = $number1 + $number2;
+$subtraction = $number1 - $number2;
+$multiplication = $number1 * $number2;
+$division = $number1 / $number2;
+
+echo "Number 1: $number1 <br> Number 2: $number2 <br> Addition: $addition <br> Subtraction: $subtraction <br> Multiplication: $multiplication <br> Division: $division";
+
+define("WEBSITE_NAME", "Jesnsen Decors");
+define("CREATED_YEAR", 2024);
+
+echo "Welcome to My Website" . WEBSITE_NAME . "<br>" . "Created in" . CREATED_YEAR;
+
+$name = "Naimat Ali";
+$age = 17;
+$height = 5.5;
+$student = true;
+$colors = ["Red","Blue","Green","Black","White"];
+
+echo "$name <br> $age <br> $height <br> $student <br> " . implode(",",$colors);
+
+
+
+
+
+
 ?>
