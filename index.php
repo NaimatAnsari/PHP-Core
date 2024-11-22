@@ -243,6 +243,13 @@ echo str_replace("Naimat" , "Ahmer" , $firstName);
 
 
 
+$name = " Ali";
+$age = 10;
+$height = 5.0;
+$student = true;
+$colors = ["Red","Blue","Green","Black","White"];
+
+echo "$name <br> $age <br> $height <br> $student <br> " . implode(",",$colors);
 
 
 
