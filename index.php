@@ -249,7 +249,135 @@ $height = 5.0;
 $student = true;
 $colors = ["Red","Blue","Green","Black","White"];
 
-echo "$name <br> $age <br> $height <br> $student <br> " . implode(",",$colors);
+
+$friut = ["apple", "mango", "banana", "grapes", "orange", "pineapple"];
+
+echo $friut[0]  . " " . $friut[1] . " " . $friut[2] . " " . $friut[3] . " " . $friut[4] . " " . $friut[5];
+
+print_r($friut);
+
+foreach ($friut as $friuts) {
+    echo "friut =" . $friuts . "<br>"; 
+}
+
+$person = [
+    "name" => "Naimat Ali",
+    "age" => 17,
+    "city" => "Karachi"
+];
+
+echo $person["name"] . " " . $person["age"] . " " . $person["city"];
+
+foreach ($person as $key => $value) {
+    echo "$key = $value <br>";
+}
+
+$student = [
+    [
+        "name" => "Naimat Ali",
+        "age" => 17,
+        "city" => "Karachi"
+    ],
+    [
+        "name" => "Waqas Sheikh",
+        "age" => 19,
+        "city" => "Karachi"
+    ],
+    [
+        "name" => "Umer Anwer",
+        "age" => 17,
+        "city" => "Karachi"
+    ],
+    [
+        "name" => "Sarim Akbar",
+        "age" => 21,
+        "city" => "Karachi"
+    ],
+    [
+        "name" => "Muzamil Khan",
+        "age" => 17,
+        "city" => "Karachi"
+    ]
+
+];
+
+foreach ($student as $students) {
+    foreach ($students as $key => $value) {
+        echo "$key = $value <br>";
+    }
+}
+
+echo $student[0]["name"] , $student[3]["age"],$student[0]["name"] , $student[3]["age"] ;
+
+$cart = ["Mango","Apple","Orange"];
+array_push($cart,"Banana","Grapes");
+
+echo implode(", ",$cart);
+array_pop($cart);
+
+$bankQueue = ["Coustmer 1" , "Coustmer 2" , "Coustmer 3"];
+array_shift($bankQueue);
+
+print_r($bankQueue);
+
+
+$bankQueue2 = ["Coustmer 2" , "Coustmer 3"];
+ array_unshift($bankQueue2 , "Coustmer 1");
+
+ print_r($bankQueue2);
+
+if (in_array("Coustmer 1", $bankQueue2)) {
+    echo "Yes Coustmer 1 Available is bankQueue Data";
+} else {
+    echo "No, Coustmer 1 Not Available is bankQueue Data";
+}
+
+$fruits = ["Apple", "Banana"];
+$vegetables = ["Carrot", "Potato"];
+$groceries = array_merge($fruits, $vegetables);
+
+print_r($groceries);
+
+$fruits = ["Apple", "Banana"];
+$vegetables = ["Carrot", "Potato"];
+$groceries = array_merge($fruits, $vegetables);
+
+print_r($groceries);
+
+$user = [1,2,3,4,5,6,7,8,9,10,2,3,5,2,5,6,7,9,3];
+$userUnique = array_unique($user);
+
+print_r($userUnique);
+
+$userUniquereverse = array_reverse($userUnique);
+
+print_r($userUniquereverse);
+
+$items = ["apple", "banana", "orange", "grapes", "pineapple"];
+echo count($items);
+
+$position = array_search("apple", $items);
+echo $position;
+
+$itemsSlice = array_slice($items,0,3);
+print_r($itemsSlice);
+
+$person = ["name" => "Ali", "age" => 30, "city" => "Karachi"];
+$keys = array_keys($person);
+print_r($keys);
+$values = array_values($person);
+print_r($values);
+
+$sort = sort($userUnique);
+print_r($sort);
+
+
+$rsort = rsort($userUnique);
+print_r($rsort);
+
+
+
+
 
 
 
