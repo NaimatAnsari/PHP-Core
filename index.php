@@ -375,6 +375,42 @@ print_r($sort);
 $rsort = rsort($userUnique);
 print_r($rsort);
 
+$user = "Naimat Ali";
+$password  = 91223;
+$OTP = "ijk4n3m";
+
+if ($user == "Waqas Skeikh" and $password == 1234 and $OTP === "dls9as08cv") {
+   echo "Yes Waqas is Login";
+} elseif ($user == "Naimat Ali" and $password == 91223 and $OTP == "ijk4n3m") {
+   echo "Yes $user is Login";
+} else {
+    echo "Invalide Email Address";
+}
+
+function checkGrade($marks){
+    if ($marks > 90) {
+        echo "Grade is = A+";
+    } elseif ($marks > 80) {
+        echo "Grade is = A";
+    }elseif ($marks > 70) {
+        echo "Grade is = B";
+    }elseif ($marks > 60) {
+        echo "Grade is = C";
+    }elseif ($marks > 50) {
+        echo "Grade is D";
+    }elseif ($marks > 40) {
+        echo "Grade is Promoted";
+    } elseif ($marks < 33) {
+        echo "Grade is Fail";
+    } else {
+        echo "Enter Your Correct Number";
+    }
+    
+    
+    $gradeResult = checkGrade(66);
+
+    echo $gradeResult;
+}
 
 
 
