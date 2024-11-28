@@ -412,7 +412,30 @@ function checkGrade($marks){
     echo $gradeResult;
 }
 
+function checkGrade($marks){
+    if ($marks > 90) {
+        echo "Grade is = A+";
+    } elseif ($marks > 80) {
+        echo "Grade is = A";
+    }elseif ($marks > 70) {
+        echo "Grade is = B";
+    }elseif ($marks > 60) {
+        echo "Grade is = C";
+    }elseif ($marks > 50) {
+        echo "Grade is D";
+    }elseif ($marks > 40) {
+        echo "Grade is Promoted";
+    } elseif ($marks < 33) {
+        echo "Grade is Fail";
+    } else {
+        echo "Enter Your Correct Number";
+    }
+    
+    
+    $gradeResult = checkGrade(22);
 
+    echo $gradeResult;
+}
 
 
 
