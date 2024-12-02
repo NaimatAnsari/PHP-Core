@@ -480,5 +480,9 @@ foreach ($user as $users) {
         echo "$i $value <br>";
     } 
 }
-
+foreach ($user as $users) {
+    foreach ($users as $i => $values) {
+        echo "$i $values <br>";
+    } 
+}
 ?>
