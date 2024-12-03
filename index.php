@@ -1,4 +1,4 @@
-no<?php
+<?php
 $print = "Hello PHP World";
 $cr = 7;
 
