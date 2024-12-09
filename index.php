@@ -485,4 +485,23 @@ foreach ($user as $users) {
         echo "$i $values <br>";
     } 
 }
+
+$user = [ 
+    [1, "Naimat Ali" , "Software Developer"],
+    [2, "Umer Anwer" , "Civil Engineer"],
+    [3, "Waqas Sheikh" , "Business Men"],
+    [4, "Sarim Akbar" , "Chemist"],
+    [5, "Muzamil Khan" , "Trader"],
+];
+
+foreach ($user as $users) {
+    foreach ($users as $i => $value) {
+        echo "$i $value <br>";
+    } 
+}
+foreach ($user as $users) {
+    foreach ($users as $i => $values) {
+        echo "$i $values <br>";
+    } 
+}
 ?>
