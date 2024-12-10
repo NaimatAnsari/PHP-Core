@@ -4,6 +4,12 @@ $cr = 7;
 
 echo $print . " " . $cr . "<br>";
 
+$pri = "Hello World";
+$c = 7;
+
+print $pri . " " . $c . "<br>";
+
+
 $a = 10;
 $b = 90;
 $result = $a + $b;
