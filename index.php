@@ -510,4 +510,9 @@ foreach ($user as $users) {
         echo "$i $values <br>";
     } 
 }
+
+$a = 10;
+$b = 90;
+$result = $a + $b;
+echo "Result: $result<br>";
 ?>
