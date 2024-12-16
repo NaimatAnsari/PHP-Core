@@ -4,6 +4,11 @@ $cr = 7;
 
 echo $print . " " . $cr . "<br>";
 
+
+$print = "Hello PHP World";
+$cr = 7;
+
+echo $print . " " . $cr . "<br>";
 $pri = "Hello World";
 $c = 7;
 
