@@ -25,6 +25,12 @@ $fahad = 100;
 $sum = $naimat === $fahad;
 echo "Sum: " . ($sum ? "true" : "false") . "<br>";
 
+
+$a = 10;
+$b = 20;
+$c = $a + $b;
+echo $c . "<br>";
+
 $x = 8;
 $y = $x % 2 == 0;
 echo $y ? "Even<br>" : "Odd<br>";
