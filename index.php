@@ -4,6 +4,11 @@ $cr = 7;
 $print = "PHP World ";
 $print = "PHP ";
 
+$print = "Hello PHP World";
+$cr = 7;
+$print = "PHP World ";
+$print = "PHP ";
+
 $print = "Hello ";
 $cr = 7;
 $print = " World ";
